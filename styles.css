@@ -1,2 +1,35 @@
+ body {
+            font-family: "Times New Roman", serif;
+        }
 
-/* Your CSS Code here. */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 2px solid black;
+            padding: 8px;
+            vertical-align: top;
+        }
+
+        .outer {
+            width: 90%;
+            margin: auto;
+        }
+
+        .title {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .black {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        ul {
+            margin: 10px;
+        }
